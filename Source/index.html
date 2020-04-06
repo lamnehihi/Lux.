@@ -1,95 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <script
       src="https://kit.fontawesome.com/e96465b91f.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <img src="../img/logo.png" ></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a href="#" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Accomodations</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Facilities & Amenities</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Restaurant</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="../img/logo.png" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Accomodations</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Facilities & Amenities</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Restaurant</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <!-- Image slider  -->
-    <div id="slides" class="carousel slide" data-ride="carousel" data-interval="5000">
-        <ul class="carousel-indicators">
-            <li data-target="#slides" data-slide-to="0" class="active"></li>
-            <li data-target="#slides" data-slide-to="1"></li>
-            <li data-target="#slides" data-slide-to="2"></li>
-        </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../img/carousel-image-1.jpg" alt="">
-                <div class="carousel-caption">
-                    <h1 class="display-2">Luxury</h1>
-                    <h3>Lorem ipsum dolor sit amet</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg">Demo</button>
-                    <button type="button" class="btn btn-primary btn-lg">Book</button>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="../img/carousel-image-2.jpg" alt="">
-            </div>
-            <div class="carousel-item">
-                <img src="../img/carousel-image-3.jpg" alt="">
-            </div>
+    <div
+      id="slides"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="5000"
+    >
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../img/carousel-image-1.jpg" alt="" />
+          <div class="carousel-caption">
+            <h1 class="display-2">Luxury</h1>
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              Demo
+            </button>
+            <button type="button" class="btn btn-primary btn-lg">Book</button>
+          </div>
         </div>
-        <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        <div class="carousel-item">
+          <img src="../img/carousel-image-2.jpg" alt="" />
+        </div>
+        <div class="carousel-item">
+          <img src="../img/carousel-image-3.jpg" alt="" />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#slides"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#slides"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
     <!-- Introdution -->
     <div class="container-fluid">
-        <div class="row text-center">
-            <div class="col-6 vl">
-                  <!-- this is a vertical line divider-->
-            </div>
-            <div class="col-12">
-                <h1 class="display-2">Ultima Lux.</h1>
-                <h3 class="lead">The luxury oasis with a 180 degree views on the sea to discover in the Adriatic Sea</h3>
-            </div>
+      <div class="row text-center">
+        <div class="col-6 vl"><!-- this is a vertical line divider--></div>
+        <div class="col-12">
+          <h1 class="display-2">Ultima Lux.</h1>
+          <h3 class="lead">
+            The luxury oasis with a 180 degree views on the sea to discover in
+            the Adriatic Sea
+          </h3>
         </div>
+      </div>
+      <hr class="my-4 m-5" />
+      <div class="row text-center d-flex justify-content-center">
+        <div class="d-flex justify-content-center">
+          <p class="lean col-6">
+            Overlooking the Adriatic sea, this stunning villa with 180 degree
+            views on the Greek and Albania coast offers the signature luxury
+            design and comfort of Ultima Collection associated to the luxury
+            services of the most prestigious palace. Ultima Corfu is the perfect
+            place for a luxury retreat away from the all eyes with the unique
+            Greek atmosphere. Everything about the house is designed for comfort
+            and space with 2 infinite swimming pools on two levels joined by a
+            waterfall, a spa, a cinema and a private boat located on the private
+            sea platform.
+          </p>
+        </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-outline-dark btn-lg">
+            Book a Stay
+          </button>
+          <button type="button" class="btn btn-outline-dark btn-lg">
+            Download Brochure
+          </button>
+        </div>
+      </div>
+      <div class="col-6 vl"><!-- this is a vertical line divider--></div>
     </div>
     <!-- Kind of room -->
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-xl-4">
+          <a href="#" class=""
+            ><img src="../img/penthouse.jpg" alt="guest-room" />
+            <span class="text-uppercase text-dark kind-of-room">guest rooms</span>
+          </a>
+        </div>
 
+        <div class="col-xl-4">
+          <a href="#" class=""
+            ><img src="../img/penthouse.jpg" alt="guest-room" />
+            <span class="text-uppercase text-dark kind-of-room">guest rooms</span>
+          </a>
+        </div>
+
+        <div class="col-xl-4">
+          <a href="#" class=""
+            ><img src="../img/penthouse.jpg" alt="guest-room" />
+            <span class="text-uppercase text-dark kind-of-room">guest rooms</span>
+          </a>
+        </div>
+      </div>
+    </div>
     <!-- Service -->
 
     <!-- Image slider -->
@@ -103,9 +179,20 @@
     <!-- Optional JavaScript -->
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
