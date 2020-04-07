@@ -57,6 +57,29 @@ html, body {
   transition: all 0.4s ease;
 }
 
+/*Customized introdution*/
+.vl {
+  margin-top: 23px;
+  border-right: 1px solid rgba(142, 142, 142, 0.399);
+  height: 20vh;
+}
+.section {
+  height: 130vh;
+  padding-top: 2rem;
+}
+.introdution h2 {
+  padding: 1rem;
+  font-size: 400%;
+}
+.introdution h3 {
+  font-size: 150%;
+  padding-bottom: 3rem;
+}
+.introdution p {
+  padding-bottom: 1rem;
+  font-size: 110%;
+}
+
 
 
 
