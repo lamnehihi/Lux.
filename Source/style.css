@@ -125,7 +125,20 @@ body {
   background-color: rgba(29, 29, 29, 0.714);;
 }
 
-
+/* Customized services */
+.services {
+  margin: 10rem 9rem;;
+}
+.services .rounded-circle {
+  padding: 0;
+}
+.services .rounded-circle img {
+  margin-bottom: 2rem;
+}
+.services .rounded-circle h4 {
+  font-size: 95%;
+  font-weight: 800;
+}
 
 
 
