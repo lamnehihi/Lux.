@@ -8,6 +8,8 @@ body {
 }
 h2 {
   font-weight: 800;
+  font-size: 250%;
+  margin-bottom: 5rem;
 }
 /*Customize nav bar*/
 .navbar {
@@ -36,7 +38,7 @@ h2 {
   text-shadow: 1.5px 1.5px 30px #000;
 }
 .carousel-caption h3 {
-  font-size: 200%;
+  font-size: 160%;
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 2rem;
@@ -46,16 +48,21 @@ h2 {
   border-color: #1a1a1a;
   width: 8rem;
 }
+.carousel-caption .btn-outline-light {
+  background-color: #00000038;
+}
 .carousel-caption .btn {
   width: 10rem;
   height: 3.5rem;
+  text-shadow: 1px 1px 10px #000;
 }
 .carousel-caption .btn-primary:hover {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.721);
   color: #000;
 }
 .btn:hover {
   transform: scale(1.08);
+  text-shadow: none;
 }
 .btn {
   transition: all 0.4s ease;
@@ -215,18 +222,45 @@ h2 {
   background-size: cover;
   background-position: center;
 }
+.mb {
+  margin-bottom: 10rem;
+}
 
 /* Customized fixed image */
 .fixed {
   background-image: url(../img/carousel-image-2.jpg);
   width: 100vw;
-  height: 70vh;
+  height: 50vh;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: 5rem 0rem;;
 }
 
-
-
+/* Customized amenities*/
+.amenities {
+  padding: 5rem 0rem;
+  height: 100vh;
+}
+.amenities img {
+  width: 80px;
+  height: 80px;
+  padding: .5rem;
+}
+.amenities h3 {
+  font-size: 100%;
+  font-weight: bold;
+}
+.amenities p {
+  font-size: 80%;
+}
+.amenities .row {
+  padding: 0rem 10rem;
+}
+.amenities .services-item {
+  width: 300px;
+  padding: 2rem 0rem;
+}
 
 
 
