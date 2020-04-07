@@ -6,6 +6,9 @@ body {
   font-family: "Gotu", sans-serif;
   color: #222;
 }
+h2 {
+  font-weight: 800;
+}
 /*Customize nav bar*/
 .navbar {
   opacity: 0.8;
@@ -114,7 +117,7 @@ body {
   transition: all 1.3s ease;
 }
 .over-lay span {
-  margin: 2rem;
+  margin: 4rem;
   font-size: 200%;
   color: white;
 }
@@ -133,14 +136,85 @@ body {
   padding: 0;
 }
 .services .rounded-circle img {
-  margin-bottom: 2rem;
+  margin-bottom: 1.8rem;
 }
 .services .rounded-circle h4 {
   font-size: 95%;
   font-weight: 800;
 }
 
-
+/* Customized our rooms */
+.our-room h2 {
+  font-size: 250%;
+  margin-bottom: 5rem;
+}
+.list-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+.list-group a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  background-color: rgba(255, 255, 0, 0);
+  border: none;
+  color: rgb(136, 136, 136);
+  font-size: small;
+  font-weight: 900;
+  transition: all 0.3s ease;
+}
+#border {
+  border-left: 1px solid rgba(136, 136, 136, 0.221);
+  border-right: 1px solid rgba(136, 136, 136, 0.228); 
+}
+.list-group .active {
+  background-color: rgba(255, 0, 0, 0);
+  color: #000;
+}
+.list-group a:hover{
+  background-color: rgba(255, 0, 0, 0);
+  color: #000;
+}
+.panel-item {
+  margin: 0;
+  padding: 0;
+}
+.our-room .tab-pane {
+  margin: 0rem 7rem;;
+}
+.our-room-img {
+  min-width: 350px;
+  height: 350px;
+  background-color: rgb(191, 191, 191);
+}
+.our-room .tab-pane h3{
+  font-size: 150%;
+  padding: 2rem 1rem;
+}
+.our-room .tab-pane p{
+  font-size: 90%;
+  padding: 2rem 1rem;
+  opacity: .9;
+}
+.our-room .tab-pane .king-room {
+  background-image: url(../img/king-room.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.our-room .tab-pane .queen-room {
+  background-image: url(../img/queen-room.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.our-room .tab-pane .double-queen-room {
+  background-image: url(../img/double-queen-room.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 
 
