@@ -1,5 +1,20 @@
-
-
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Gotu', sans-serif;
+  color: #222;
+}
+/*Customize nav bar*/
+.navbar {
+  opacity: 0.8;
+  padding-right: 1.3rem;
+}
+.navbar-nav li {
+  padding-right: 30px;
+}
+.nav-link {
+  font-size: 1.1rem !important;
+}
 
 
 
