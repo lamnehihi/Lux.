@@ -216,6 +216,20 @@ h2 {
   background-position: center;
 }
 
+/* Customized fixed image */
+.fixed {
+  background-image: url(../img/carousel-image-2.jpg);
+  width: 100vw;
+  height: 70vh;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+
+
+
 
 
 
