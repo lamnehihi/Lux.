@@ -1,8 +1,9 @@
-html, body {
+html,
+body {
   background-color: #e9ddd9b1;
   height: 100%;
   width: 100%;
-  font-family: 'Gotu', sans-serif;
+  font-family: "Gotu", sans-serif;
   color: #222;
 }
 /*Customize nav bar*/
@@ -59,12 +60,12 @@ html, body {
 
 /*Customized introdution*/
 .vl {
-  margin-top: 23px;
+  margin-top: 5rem;
   border-right: 1px solid rgba(142, 142, 142, 0.399);
   height: 20vh;
 }
 .section {
-  height: 130vh;
+  height: 100%;
   padding-top: 2rem;
 }
 .introdution h2 {
@@ -80,16 +81,67 @@ html, body {
   font-size: 110%;
 }
 
+/*customized kind of room*/
+.kind-of-room {
+  margin: 6rem 0rem;
+  padding: 0;
+}
+.room {
+  width: 400px;
+  height: 600px;
+  background-color: blanchedalmond;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+.guest-room {
+  background-image: url(../img/guest-room.jpg);
+}
+.suites-room {
+  background-image: url(../img/suites-room.jpg);
+}
+.penthouse-room {
+  background-image: url(../img/penthouse.jpg);
+}
+.over-lay {
+  background-color: rgba(29, 29, 29, 0.447);
+  height: 100%;
+  width: 100%;
+  align-items: flex-end;
+  display: flex;
+  box-sizing: border-box;
+  transition: all 1.3s ease;
+}
+.over-lay span {
+  margin: 2rem;
+  font-size: 200%;
+  color: white;
+}
+.room:hover {
+  transform: scale(1.05);
+}
+.room:hover .over-lay {
+  background-color: rgba(29, 29, 29, 0.714);;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*--Media Qeries --*/
-@media (max-width : 992px) {
-
+@media (max-width: 992px) {
 }
-@media (max-width : 768px) {
-
+@media (max-width: 768px) {
 }
-@media (max-width : 576px) {
-
+@media (max-width: 576px) {
 }
