@@ -28,6 +28,7 @@ h2 {
   width: 100%;
   height: 89vh;
   background-position: center;
+  background-size: cover;
 }
 .carousel-caption {
   position: absolute;
@@ -127,12 +128,16 @@ h2 {
   margin: 4rem;
   font-size: 200%;
   color: white;
+  transition: all 0.5s ease;
 }
 .room:hover {
   transform: scale(1.05);
 }
 .room:hover .over-lay {
   background-color: rgba(29, 29, 29, 0.714);;
+}
+.room:hover span {
+  transform: scale(1.19);
 }
 
 /* Customized services */
@@ -240,7 +245,6 @@ h2 {
 /* Customized amenities*/
 .amenities {
   padding: 5rem 0rem;
-  height: 100vh;
 }
 .amenities img {
   width: 80px;
@@ -262,6 +266,23 @@ h2 {
   padding: 2rem 0rem;
 }
 
+/* Customized subcribe */
+.subcribe {
+  height: 50vh;
+}
+/* Customized footer */
+.footer-menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+}
+.footer-menu {
+  padding: 1rem;
+  width: 200px;
+  
+}
+.footer-menu a {
+  color: #1a1a1a;
+}
 
 
 
