@@ -295,9 +295,188 @@ h2 {
 
 
 /*--Media Qeries --*/
+@media (max-width: 1244px) {
+  .our-room .tab-pane h3{
+    font-size: 110%;
+    padding: 2rem 1rem;
+  }
+}
 @media (max-width: 992px) {
+  .navbar-brand img{
+    height: 50px;
+  }
+  .carousel-caption h1 {
+    font-size: 500%;
+    text-shadow: 1.5px 1.5px 30px #000;
+  }
+  .carousel-caption h3 {
+    font-size: 150%;
+    text-shadow: 1.5px 1.5px 30px #000;
+  }
+  .room {
+    width: 300px;
+    height: 350px;
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    transition: all 0.3s ease;
+  }
+  .over-lay span {
+    margin: 2rem;
+    font-size: 150%;
+    color: white;
+    transition: all 0.5s ease;
+  }
+  .services .rounded-circle img {
+    height: 140px;
+  }
+  .our-room-img {
+    min-width: 250px;
+    height: 350px;
+    background-color: rgb(191, 191, 191);
+  }
+  #guest-room {
+    margin: 0rem;
+  }
+  .amenities .services-item {
+    width: 250px;
+    padding: 2rem 0rem;
+  }
 }
 @media (max-width: 768px) {
+  .navbar-brand img{
+    height: 30px;
+  }
+  .carousel-caption h1 {
+    font-size: 300%;
+    text-shadow: 1.5px 1.5px 30px #000;
+  }
+  .carousel-caption h3 {
+    font-size: 100%;
+    text-shadow: 1.5px 1.5px 30px #000;
+  }
+  .carousel-inner img {
+    height: 70vh;
+  }
+  .introdution h2 {
+    padding: 1rem;
+    font-size: 300%;
+  }
+  .introdution h3 {
+    font-size: 90%;
+    padding-bottom: 3rem;
+  }
+  .introdution p {
+    padding-bottom: 1rem;
+    font-size: 70%;
+  }
+  .room {
+    width: 220px;
+    height: 300px;
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    transition: all 0.3s ease;
+  }
+  .over-lay span {
+    margin: 2rem;
+    font-size: 110%;
+    color: white;
+    transition: all 0.5s ease;
+  }
+  .services .rounded-circle img {
+    height: 110px;
+  }
+  .our-room-img {
+    min-width: 200px;
+    height: 350px;
+    background-color: rgb(191, 191, 191);
+  }
+  .our-room .tab-pane h3{
+    font-size: 90%;
+    padding: 2rem 1rem;
+  }
+  .our-room .tab-pane p{
+    font-size: 70%;
+    padding: 2rem 1rem;
+  }
+  #guest-room {
+    margin: 0rem;
+  }
+  .amenities .services-item {
+    width: 350px;
+    padding: 2rem 0rem;
+  }
+  .subcribe h2 {
+    font-size: 150%;
+  }
+  .footer {
+    font-size: 80%;
+  }
 }
 @media (max-width: 576px) {
+  .carousel-caption h1 {
+    font-size: 250%;
+    text-shadow: 1.5px 1.5px 30px #000;
+  }
+  .carousel-caption h3 {
+    font-size: 90%;
+    text-shadow: 1.5px 1.5px 30px #000;
+  }
+  .carousel-inner img {
+    height: 50vh;
+  }
+  .kind-of-room-direction {
+    flex-direction: column;
+  }
+  .room {
+    margin: 2rem;
+    width: 300px;
+    height: 300px;
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    transition: all 0.3s ease;
+  }
+  .over-lay span {
+    margin: 2rem;
+    font-size: 110%;
+    color: white;
+    transition: all 0.5s ease;
+  }
+  .services .rounded-circle img {
+    height: 110px;
+  }
+  .our-room-direction {
+    flex-direction: column;
+  }
+  .our-room-img {
+    min-width: 400px;
+    height: 350px;
+    background-color: rgb(191, 191, 191);
+  }
+  .our-room .tab-pane h3{
+    font-size: 90%;
+    padding: 1rem 1rem;
+  }
+  .our-room .tab-pane p{
+    font-size: 70%;
+    padding: 1rem 1rem;
+  }
+  #guest-room {
+    margin: 0rem;
+  }
+  .amenities .services-item {
+    width: 250px;
+    padding: 2rem 0rem;
+  }
+  .subcribe h2 {
+    font-size: 150%;
+  }
+  .footer {
+    font-size: 80%;
+  }
 }
