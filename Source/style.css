@@ -339,6 +339,12 @@ h2 {
   #guest-room {
     margin: 0rem;
   }
+  #suites {
+    margin: 0rem;
+  }
+  #penthouse {
+    margin: 0rem;
+  }
   .amenities .services-item {
     width: 250px;
     padding: 2rem 0rem;
@@ -405,6 +411,12 @@ h2 {
   #guest-room {
     margin: 0rem;
   }
+  #suites {
+    margin: 0rem;
+  }
+  #penthouse {
+    margin: 0rem;
+  }
   .amenities .services-item {
     width: 250px;
     padding: 2rem 0rem;
@@ -467,6 +479,12 @@ h2 {
     padding: 1rem 1rem;
   }
   #guest-room {
+    margin: 0rem;
+  }
+  #suites {
+    margin: 0rem;
+  }
+  #penthouse {
     margin: 0rem;
   }
   .amenities {
