@@ -406,7 +406,7 @@ h2 {
     margin: 0rem;
   }
   .amenities .services-item {
-    width: 350px;
+    width: 250px;
     padding: 2rem 0rem;
   }
   .subcribe h2 {
@@ -469,9 +469,15 @@ h2 {
   #guest-room {
     margin: 0rem;
   }
+  .amenities {
+    padding: 0rem 0rem;
+  }
+  .amenities .row {
+    padding: 0rem 5rem;
+  }
   .amenities .services-item {
     width: 250px;
-    padding: 2rem 0rem;
+    padding: 0rem 0rem;
   }
   .subcribe h2 {
     font-size: 150%;
