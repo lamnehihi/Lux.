@@ -1,4 +1,5 @@
 test.html
-firebase.json
-public/
-.firebaserc
+.firebase/
+../.firebaserc
+../firebase.json
+../public/
