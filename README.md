@@ -1,5 +1,6 @@
 # Lux
 Lux is a single web page about hotel, it's the first solo project of mine !!
+[Visit here !](https://luxury-vn.firebaseapp.com/)
 
 ## Installation
 Use git clone to install the repository.
